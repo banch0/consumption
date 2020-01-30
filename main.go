@@ -7,6 +7,7 @@ func main() {
 }
 
 func fuelConsumption(rate, fuel int) int {
-	result := fuel * 100 / rate
+	distance := 100
+	result := fuel * distance / rate
 	return result
 }
